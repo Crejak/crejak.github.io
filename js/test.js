@@ -7,5 +7,5 @@ window.onload = function () {
   ctx = canvas.getContext("2d");
 
   ctx.strokeRect(40, 40, 80, 40);
-  ctx.fillTest("Hello World !", 50, 65);
+  ctx.fillText("Hello World !", 50, 65);
 };
