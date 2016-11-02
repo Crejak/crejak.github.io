@@ -3,7 +3,17 @@
   <head>
     <meta charset="utf-8"/>
     <title>Crejak's Dev Blog</title>
-    <script src="/test.js" />
+    <script>canvas = null;
+ctx = null;
+
+window.onload = function () {
+  console.log("test");
+  canvas = document.getElementById("screen");
+  ctx = canvas.getContext("2d");
+
+  ctx.strokeRect(40, 40, 80, 40);
+  ctx.fillTest("Hello World !", 50, 65);
+};</script>
   </head>
   <body>
     <h1>Crejak's Dev Blog</h1>
