@@ -2,6 +2,7 @@ canvas = null;
 ctx = null;
 
 window.onload = function () {
+  console.log("test");
   canvas = document.getElementById("screen");
   ctx = canvas.getContext("2d");
 
