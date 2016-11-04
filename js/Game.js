@@ -1,9 +1,11 @@
+console.log("tu le vois la ton p**** de point virgule ??????");
 var Game = new funtion() {
   this.lastTime = 0;
   this.gameTick = null;
   this.prevElapsed = 0;
 
   this.run = function(gameTick) {
+    console.log("run");
     var prevTick = this.gameTick;
     this.gameTick = gameTick;
     if (this.lastTime = 0) {
