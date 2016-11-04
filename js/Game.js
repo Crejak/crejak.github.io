@@ -1,4 +1,4 @@
-;var Game = new funtion() {
+var Game = funtion() {
   this.lastTime = 0;
   this.gameTick = null;
   this.prevElapsed = 0;
