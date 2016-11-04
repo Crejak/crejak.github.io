@@ -11,11 +11,11 @@ var Game = new funtion() {
       window.requestAnimationFrame(function() { bindThis.tick(); });
       this.lastTime = 0;
     }
-  };
+  }
 
   this.stop = function() {
     this.run(null);
-  };
+  }
 
   this.tick = function() {
     if (this.gameTick != null) {
@@ -39,5 +39,5 @@ var Game = new funtion() {
       }
       this.lastTime = timeNow;
     }
-  };
-};
+  }
+}
